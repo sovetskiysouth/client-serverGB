@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080987F627774E4D00D26932 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080987F527774E4D00D26932 /* Account.swift */; };
 		087A93BF2775ED020007D00D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93BE2775ED020007D00D /* AppDelegate.swift */; };
 		087A93C12775ED020007D00D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93C02775ED020007D00D /* SceneDelegate.swift */; };
 		087A93C32775ED020007D00D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93C22775ED020007D00D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080987F527774E4D00D26932 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		087A93BB2775ED020007D00D /* client-serverGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-serverGB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087A93BE2775ED020007D00D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		087A93C02775ED020007D00D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080987F327774DA600D26932 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				087A93BE2775ED020007D00D /* AppDelegate.swift */,
+				087A93C02775ED020007D00D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		080987F427774DB500D26932 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				087A93C42775ED020007D00D /* Main.storyboard */,
+				087A93C72775ED040007D00D /* Assets.xcassets */,
+				087A93C92775ED040007D00D /* LaunchScreen.storyboard */,
+				087A93CC2775ED040007D00D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		087A93B22775ED020007D00D = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +78,10 @@
 		087A93BD2775ED020007D00D /* client-serverGB */ = {
 			isa = PBXGroup;
 			children = (
-				087A93BE2775ED020007D00D /* AppDelegate.swift */,
-				087A93C02775ED020007D00D /* SceneDelegate.swift */,
+				080987F327774DA600D26932 /* App */,
 				087A93C22775ED020007D00D /* ViewController.swift */,
-				087A93C42775ED020007D00D /* Main.storyboard */,
-				087A93C72775ED040007D00D /* Assets.xcassets */,
-				087A93C92775ED040007D00D /* LaunchScreen.storyboard */,
-				087A93CC2775ED040007D00D /* Info.plist */,
+				080987F527774E4D00D26932 /* Account.swift */,
+				080987F427774DB500D26932 /* Resources */,
 			);
 			path = "client-serverGB";
 			sourceTree = "<group>";
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				087A93C32775ED020007D00D /* ViewController.swift in Sources */,
+				080987F627774E4D00D26932 /* Account.swift in Sources */,
 				087A93BF2775ED020007D00D /* AppDelegate.swift in Sources */,
 				087A93C12775ED020007D00D /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +311,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UAUYM5638;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "client-serverGB/Info.plist";
+				INFOPLIST_FILE = "client-serverGB/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5UAUYM5638;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "client-serverGB/Info.plist";
+				INFOPLIST_FILE = "client-serverGB/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
