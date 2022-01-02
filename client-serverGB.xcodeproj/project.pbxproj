@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		080987F627774E4D00D26932 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080987F527774E4D00D26932 /* Account.swift */; };
+		080987FA277759E900D26932 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080987F9277759E900D26932 /* Account.swift */; };
+		080987FC27778F0600D26932 /* DetailCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080987FB27778F0600D26932 /* DetailCashViewController.swift */; };
 		087A93BF2775ED020007D00D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93BE2775ED020007D00D /* AppDelegate.swift */; };
 		087A93C12775ED020007D00D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93C02775ED020007D00D /* SceneDelegate.swift */; };
-		087A93C32775ED020007D00D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93C22775ED020007D00D /* ViewController.swift */; };
+		087A93C32775ED020007D00D /* SendCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A93C22775ED020007D00D /* SendCashViewController.swift */; };
 		087A93C62775ED020007D00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A93C42775ED020007D00D /* Main.storyboard */; };
 		087A93C82775ED040007D00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087A93C72775ED040007D00D /* Assets.xcassets */; };
 		087A93CB2775ED040007D00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087A93C92775ED040007D00D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		080987F527774E4D00D26932 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		080987F9277759E900D26932 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		080987FB27778F0600D26932 /* DetailCashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCashViewController.swift; sourceTree = "<group>"; };
 		087A93BB2775ED020007D00D /* client-serverGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-serverGB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087A93BE2775ED020007D00D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		087A93C02775ED020007D00D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		087A93C22775ED020007D00D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		087A93C22775ED020007D00D /* SendCashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendCashViewController.swift; sourceTree = "<group>"; };
 		087A93C52775ED020007D00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		087A93C72775ED040007D00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087A93CA2775ED040007D00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,24 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		080987F7277757BF00D26932 /* client-server */ = {
+			isa = PBXGroup;
+			children = (
+				080987F82777582300D26932 /* Lesson-1 */,
+			);
+			path = "client-server";
+			sourceTree = "<group>";
+		};
+		080987F82777582300D26932 /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				087A93C22775ED020007D00D /* SendCashViewController.swift */,
+				080987FB27778F0600D26932 /* DetailCashViewController.swift */,
+				080987F9277759E900D26932 /* Account.swift */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
 		087A93B22775ED020007D00D = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				080987F327774DA600D26932 /* App */,
-				087A93C22775ED020007D00D /* ViewController.swift */,
-				080987F527774E4D00D26932 /* Account.swift */,
+				080987F7277757BF00D26932 /* client-server */,
 				080987F427774DB500D26932 /* Resources */,
 			);
 			path = "client-serverGB";
@@ -157,8 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				087A93C32775ED020007D00D /* ViewController.swift in Sources */,
-				080987F627774E4D00D26932 /* Account.swift in Sources */,
+				087A93C32775ED020007D00D /* SendCashViewController.swift in Sources */,
+				080987FC27778F0600D26932 /* DetailCashViewController.swift in Sources */,
+				080987FA277759E900D26932 /* Account.swift in Sources */,
 				087A93BF2775ED020007D00D /* AppDelegate.swift in Sources */,
 				087A93C12775ED020007D00D /* SceneDelegate.swift in Sources */,
 			);
